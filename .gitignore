@@ -21,8 +21,34 @@
 *.la
 *.a
 *.lib
+!*.lib/
 
 # Executables
 *.exe
+!*.exe/
 *.out
 *.app
+
+x64/
+
+# OS UI quirks
+._.DS_Store
+.DS_Store
+Thumbs.db
+
+# Odd-ball backup files
+*.bak
+~*
+*~
+
+# Known build system files
+*.opensdf
+*.idb
+*.ipch
+*.lastbuildstate
+*.manifest
+*.res
+*.sdf
+*.tlog
+version.h
+*.aps
